@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html la="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>入力フォーム作ってみたwww</title>
+    <meta name="descliptions" content="入力フォームです">
+</head>
+
+<body>
+    <form>
+        名前:<input type="text" placeholder="名字　名前">
+        email:<input type="email" placeholder="email">
+        <br>
+        <br>
+        <input type="radio" name="gender" value="男"> 男
+        <input type="radio" name="gender" value="女" checked> 女
+        <input type="radio" name="gender" value="その他"> その他
+        <br>
+        <br>
+        <input type="checkbox" name="color" value="赤" checked>赤
+        <input type="checkbox" name="color" value="青">青
+        <input type="checkbox" name="coloe" value="黄">黄
+        <input type="checkbox" name="color" value="緑">緑
+        <br>
+        <br>
+        <input type="submit" value="送信する">
+        <br>
+        <br>
+        血液型
+        <select name="bloodtype">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="O">O</option>
+            <option value="AB">AB</option>
+            <option value="不明" selected>不明</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="messege" placeholder="メッセージを入力"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="travel" value="日本国内" id="japan">
+        <label for="japan">日本国内</label>
+        <input type="checkbox" name="travel" value="ヨーロッパ" id="europe">
+        <label for="europe">ヨーロッパ</label>
+        <input type="checkbox" name="travel" value="東南アジア" id="asia">
+        <label for="asia">東南アジア</label>
+    </form>
+</body>
+
+</html>
